@@ -10,7 +10,7 @@ In the world of buying, collecting, and selling sports cards, there are many var
 
 ## Solution Architecture
 
-![System Architecture](architecture.png)
+![System Architecture](architecture_flow.png)
 
 
 
