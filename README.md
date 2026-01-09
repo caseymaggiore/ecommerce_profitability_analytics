@@ -12,7 +12,11 @@ In the world of buying, collecting, and selling sports cards, there are many var
 
 ![System Architecture](architecture_flow.png)
 
+Data is exported from eBay and internal inventory sources into a CSV, which is then ingested and validated via Python before being loaded into a PostgreSQL database that serves as the system of record. Business rules and guardrails, such as shipping costs, eBay fee logic, and inventory state transitions are enforced at the data layer to ensure margin accuracy. The curated data is then transformed using Excel Power Query, analyzed with DAX in the Excel data model, and surfaced through dashboards for ongoing profitability and operational decision-making. The data model refreshes automatically upon opening the file to ensure further ease of use. 
 
+## Note on Code Abstraction
+
+This repository includes representative Python modules that illustrate core business rules and validation logic used in the analytics system. Full production ETL scripts and database integrations are intentionally excluded to protect proprietary workflows. Two Python code snippets are included above but do not include any code specific to this system. They serve as information only. 
 
 # Future Development
 This model is in continuous development. The start date of this business as a side hobby was 10.7.2025. Profit began rolling in immediately and I realized data analytics was necessary to become successful within this side business. The current time spent on this side hustle is ~1 hour per day. To minimize this even further, future developments to the model are needed such as :
