@@ -21,7 +21,7 @@ This repository includes representative Python modules that illustrate core busi
 ## Dashboard and Decision Making
 
 ![System Architecture](active_selling.png)
-![System Architecture](dashboard.png)
+![System Architecture](dashboard_example.png)
 
 The analytics system supports both operational and strategic decision-making across the inventory lifecycle.
 
