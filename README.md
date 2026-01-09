@@ -8,6 +8,10 @@ Unfortunately in May of 2025, I was involved in a very serious biking accident w
 # Business Problem Statement
 In the world of buying, collecting, and selling sports cards, there are many variables and factors that are not properly tracked or documented throughout the community. Small per-transaction errors can compound over time making margin protection and data accuracy critical to business viability. To accurately report and track the economic viability of sports card collecting and selling, this model serves as a real-time analytic tool that properly documents and analyzes inventory, sales, average time on market, and ROI. 
 
+## Solution Architecture
+
+![System Architecture](architecture.png)
+
 
 
 # Future Development
